@@ -4,7 +4,15 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Cat
+  - Grass
+  - Horse
+  - Item
+  - Rapira
+  - Chest
+  - Inventory
+  - Furnace
+  - Fuel
+  - ObjectFurnace
   layers:
   - Default
   - TransparentFX
@@ -14,8 +22,8 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
+  - Player
+  - Horse
   - 
   - 
   - 
