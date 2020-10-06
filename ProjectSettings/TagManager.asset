@@ -4,16 +4,12 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Grass
-  - Horse
-  - Item
-  - Rapira
-  - Chest
-  - Inventory
-  - Furnace
-  - Fuel
-  - ObjectFurnace
   - Coin
+  - Set1
+  - Set2
+  - Set3
+  - Set4
+  - Music
   layers:
   - Default
   - TransparentFX

@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f805aef5-d458-46b5-bc71-12c29fa9837a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Soria_COMP_437_Fall_2020_PersonalGame_1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Soria_COMP_437_Fall_2020_PersonalGame_1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/libsfw.bundle.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/libsfw.bundle.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Scene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Scene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Conductor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Conductor.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlatformerPlayer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlatformerPlayer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/Physics2DSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Physics2DSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,6 +67,7 @@
       <option name="presentableId" value="Default" />
       <updated>1601874291749</updated>
       <workItem from="1601874295271" duration="7480000" />
+      <workItem from="1601967556374" duration="9737000" />
     </task>
     <servers />
   </component>
@@ -75,6 +80,10 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="3230" y="356" key="RiderGenerateDialog" timestamp="1601974564675">
+      <screen x="2560" y="158" width="1920" height="1040" />
+    </state>
+    <state x="3230" y="356" key="RiderGenerateDialog/2560.158.1920.1040/-1920.158.1920.1040/0.0.2560.1400@2560.158.1920.1040" timestamp="1601974564675" />
     <state x="2652" y="250" width="1736" height="856" key="VCS.FileHistoryDialog" timestamp="1601879914646">
       <screen x="2560" y="158" width="1920" height="1040" />
     </state>

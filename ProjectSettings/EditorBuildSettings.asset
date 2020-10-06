@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes: 
+  - enabled: 1
+    path: Assets/Scenes/BeepBlockSkyway.unity
+    guid: baca59cfd7c52b549b83b6b6c7856b0e
   m_configObjects: {}

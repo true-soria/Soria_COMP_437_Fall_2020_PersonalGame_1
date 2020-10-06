@@ -34,7 +34,7 @@ public class PlatformerPlayer : MonoBehaviour
         }
         else if (collision.gameObject.CompareTag("Respawn"))
         {
-            SceneManager.LoadScene("Scene");
+            SceneManager.LoadScene("BeepBlockSkyway");
         }
     }
 
