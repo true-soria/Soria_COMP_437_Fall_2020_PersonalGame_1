@@ -22,6 +22,7 @@
           <e p="Conductor.cs" t="Include" />
           <e p="FollowCam.cs" t="Include" />
           <e p="MovingPlatform.cs" t="Include" />
+          <e p="PauseMenu.cs" t="Include" />
           <e p="PlatformerPlayer.cs" t="Include" />
         </e>
       </e>

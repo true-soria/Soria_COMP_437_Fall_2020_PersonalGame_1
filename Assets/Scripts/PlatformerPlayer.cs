@@ -11,7 +11,6 @@ public class PlatformerPlayer : MonoBehaviour
     public float instantGravityForce = 50f;
     public int jumpDelayFrames = 7;
     public int extraJumps = 1;
-    
 
     private AudioSource _tickSource;
     private Rigidbody2D _body;
@@ -21,7 +20,6 @@ public class PlatformerPlayer : MonoBehaviour
     private int _score = 0;
     private int _jumpDelay = 0;
     private int _jumpsLeft = 0;
-    
 
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -62,8 +60,9 @@ public class PlatformerPlayer : MonoBehaviour
         Collider2D hit = Physics2D.OverlapArea(corner1, corner2);
 
         bool grounded = hit != null;
-
         _body.gravityScale = grounded ? 0 : 1;
+        
+        // Jump mechanic
         if (Input.GetKeyDown(KeyCode.Space) && _jumpDelay <= 0)
         {
             if (grounded)
@@ -71,7 +70,7 @@ public class PlatformerPlayer : MonoBehaviour
                 _body.velocity = Vector2.zero;
                 _body.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
                 _jumpDelay = jumpDelayFrames;
-                _jumpsLeft = extraJumps;                
+                _jumpsLeft = extraJumps;
             }
             else if (_jumpsLeft > 0)
             {
@@ -82,6 +81,7 @@ public class PlatformerPlayer : MonoBehaviour
             }
         }
 
+        // Insta-drop mechanic
         if (Input.GetKeyDown(KeyCode.LeftControl) && !grounded)
         {
             _body.AddForce(Vector2.down * instantGravityForce, ForceMode2D.Impulse);
