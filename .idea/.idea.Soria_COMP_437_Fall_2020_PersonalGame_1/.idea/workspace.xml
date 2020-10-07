@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="f805aef5-d458-46b5-bc71-12c29fa9837a" name="Default Changelist" comment="" />
+=======
+    <list default="true" id="f805aef5-d458-46b5-bc71-12c29fa9837a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Soria_COMP_437_Fall_2020_PersonalGame_1/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Soria_COMP_437_Fall_2020_PersonalGame_1/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Soria_COMP_437_Fall_2020_PersonalGame_1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Soria_COMP_437_Fall_2020_PersonalGame_1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Conductor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Conductor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlatformerPlayer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlatformerPlayer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/debug.log" afterDir="false" />
+    </list>
+>>>>>>> cb635581e6b60a0d142cfb514bb65af0b9d275c8
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +24,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/Conductor.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PauseMenu.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlatformerPlayer.cs" />
       </list>
     </option>
@@ -59,6 +70,7 @@
       <updated>1601874291749</updated>
       <workItem from="1601874295271" duration="7480000" />
       <workItem from="1601967556374" duration="9737000" />
+      <workItem from="1602051653974" duration="6777000" />
     </task>
     <servers />
   </component>
