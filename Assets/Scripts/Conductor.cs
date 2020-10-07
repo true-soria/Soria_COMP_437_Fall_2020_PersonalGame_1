@@ -32,7 +32,7 @@ public class Conductor : MonoBehaviour
     void Start()
     {
         _song = GetComponent<AudioSource>();
-        
+        _song.Play();
         _beatDelta = 1 / (bpm / 60f);
         _timeElapsed = 0;
         _timeUntilNextBeat = songStart;
@@ -56,6 +56,7 @@ public class Conductor : MonoBehaviour
             _timeUntilNextBeat += _beatDelta;
             ChangeActiveBeatGroup();
         }
+        SongManager();
 
     }
 
@@ -67,5 +68,17 @@ public class Conductor : MonoBehaviour
         _currentTagIndex = (_currentTagIndex + 1) % tagSequence.Length;
         foreach (GameObject go in _beatGroups[_currentTagIndex])
             go.SetActive(true);
+    }
+
+    private void SongManager()
+    {
+        if (PauseMenu.GamePaused && _song.isPlaying)
+        {
+            _song.Pause();
+        }
+        else if (!PauseMenu.GamePaused && !_song.isPlaying)
+        {
+            _song.UnPause();
+        }
     }
 }
