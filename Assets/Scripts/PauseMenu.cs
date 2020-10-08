@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Serialization;
@@ -12,6 +13,7 @@ public class PauseMenu : MonoBehaviour
     public GameObject countDownUI;
     public Text countDownText;
     public AudioSource countSound;
+    public Text scoreDisplay;
     
     // Start is called before the first frame update
     void Start()
@@ -23,6 +25,7 @@ public class PauseMenu : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        scoreDisplay.text = $"{PlatformerPlayer.Score}pts ";
         if (Input.GetKeyDown(KeyCode.Escape))
         {
             if (GamePaused)

@@ -19,6 +19,7 @@
         </e>
         <e p="Scripts" t="Include">
           <e p="Cat.cs" t="Include" />
+          <e p="ConcertMaster.cs" t="Include" />
           <e p="Conductor.cs" t="Include" />
           <e p="FollowCam.cs" t="Include" />
           <e p="MovingPlatform.cs" t="Include" />

@@ -13,8 +13,10 @@ public class Conductor : MonoBehaviour
 
     private AudioSource _song;
     private float _beatDelta;
+    private float _pointsDelta;
     private float _timeElapsed;
     private float _timeUntilNextBeat;
+    private float _timeUntilPointsCheck;
     private int _activeComponents;
     private int _currentTagIndex;
     private GameObject[][] _beatGroups;
@@ -34,8 +36,10 @@ public class Conductor : MonoBehaviour
         _song = GetComponent<AudioSource>();
         _song.Play();
         _beatDelta = 1 / (bpm / 60f);
+        _pointsDelta = _beatDelta / pointsPerBeat;
         _timeElapsed = 0;
         _timeUntilNextBeat = songStart;
+        _timeUntilPointsCheck = _timeUntilNextBeat + (_pointsDelta / 2);
         _currentTagIndex = tagSequence.Length - 1;
         
         _beatGroups = new GameObject[tagSequence.Length][];
@@ -54,10 +58,17 @@ public class Conductor : MonoBehaviour
         if (_timeElapsed > _timeUntilNextBeat)
         {
             _timeUntilNextBeat += _beatDelta;
+            PlatformerPlayer.InMyZone = false;
             ChangeActiveBeatGroup();
         }
-        SongManager();
 
+        if (_timeElapsed > _timeUntilPointsCheck)
+        {
+            if (PlatformerPlayer.InMyZone)
+                PlatformerPlayer.AddScore();
+            _timeUntilPointsCheck += _pointsDelta;
+        }
+        SongManager();
     }
 
     private void ChangeActiveBeatGroup()

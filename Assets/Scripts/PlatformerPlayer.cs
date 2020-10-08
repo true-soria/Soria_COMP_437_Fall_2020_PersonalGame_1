@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -6,34 +7,46 @@ using UnityEngine.Serialization;
 
 public class PlatformerPlayer : MonoBehaviour
 {
+    public static int Score;
+    public static bool InMyZone;
+    
     public float speed = 1500.0f;
     public float jumpForce = 4.5f;
     public float instantGravityForce = 50f;
     public int jumpDelayFrames = 7;
     public int extraJumps = 1;
 
-    private AudioSource _tickSource;
     private Rigidbody2D _body;
     private Animator _anim;
 
     private BoxCollider2D _box;
-    private int _score = 0;
     private int _jumpDelay = 0;
     private int _jumpsLeft = 0;
 
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    private void OnTriggerStay2D(Collider2D collision)
     {
         if (collision.gameObject.CompareTag("Coin"))
         {
-            _score++;
-            Destroy(collision.gameObject);
-            _tickSource.Play();
+            InMyZone = true;
         }
         else if (collision.gameObject.CompareTag("Respawn"))
         {
             SceneManager.LoadScene("BeepBlockSkyway");
         }
+    }
+
+    private void OnTriggerExit(Collider collision)
+    {
+        if (collision.gameObject.CompareTag("Coin"))
+        {
+            InMyZone = false;
+        }
+    }
+
+    public static void AddScore()
+    {
+        Score++;
     }
 
     // Start is called before the first frame update
@@ -42,7 +55,9 @@ public class PlatformerPlayer : MonoBehaviour
         _body = GetComponent<Rigidbody2D>();
         _anim = GetComponent<Animator>();
         _box = GetComponent<BoxCollider2D>();
-        _tickSource = GetComponent<AudioSource>();
+        Score = 0;
+        InMyZone = false;
+
     }
 
     // Update is called once per frame
@@ -59,7 +74,7 @@ public class PlatformerPlayer : MonoBehaviour
         Vector2 corner2 = new Vector2(min.x, min.y - .2f);
         Collider2D hit = Physics2D.OverlapArea(corner1, corner2);
 
-        bool grounded = hit != null;
+        bool grounded = hit != null && !hit.isTrigger;
         _body.gravityScale = grounded ? 0 : 1;
         
         // Jump mechanic
