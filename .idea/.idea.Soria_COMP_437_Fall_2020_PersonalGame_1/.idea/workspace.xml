@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+<<<<<<< HEAD
+    <list default="true" id="f805aef5-d458-46b5-bc71-12c29fa9837a" name="Default Changelist" comment="" />
+=======
+    <list default="true" id="f805aef5-d458-46b5-bc71-12c29fa9837a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Soria_COMP_437_Fall_2020_PersonalGame_1/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Soria_COMP_437_Fall_2020_PersonalGame_1/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Soria_COMP_437_Fall_2020_PersonalGame_1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Soria_COMP_437_Fall_2020_PersonalGame_1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Conductor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Conductor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlatformerPlayer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlatformerPlayer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/debug.log" afterDir="false" />
+    </list>
+>>>>>>> cb635581e6b60a0d142cfb514bb65af0b9d275c8
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/Scripts/Conductor.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PauseMenu.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlatformerPlayer.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1iRdMQucht3y8OGcJbnr5o77CH6" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Discover.Launch.Via.Unity" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="selectedOptions">
+        <set />
+      </option>
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="selectedOptions">
+        <set />
+      </option>
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f805aef5-d458-46b5-bc71-12c29fa9837a" name="Default Changelist" comment="" />
+      <created>1601874291749</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1601874291749</updated>
+      <workItem from="1601874295271" duration="7480000" />
+      <workItem from="1601967556374" duration="9737000" />
+      <workItem from="1602051653974" duration="6777000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="3230" y="356" key="RiderGenerateDialog" timestamp="1601974564675">
+      <screen x="2560" y="158" width="1920" height="1040" />
+    </state>
+    <state x="3230" y="356" key="RiderGenerateDialog/2560.158.1920.1040/-1920.158.1920.1040/0.0.2560.1400@2560.158.1920.1040" timestamp="1601974564675" />
+    <state x="2652" y="250" width="1736" height="856" key="VCS.FileHistoryDialog" timestamp="1601879914646">
+      <screen x="2560" y="158" width="1920" height="1040" />
+    </state>
+    <state x="2652" y="250" width="1736" height="856" key="VCS.FileHistoryDialog/2560.158.1920.1040/-1920.158.1920.1040/0.0.2560.1400@2560.158.1920.1040" timestamp="1601879914646" />
+  </component>
+</project>

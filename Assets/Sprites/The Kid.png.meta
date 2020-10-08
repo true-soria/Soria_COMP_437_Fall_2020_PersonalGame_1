@@ -29,6 +29,30 @@ TextureImporter:
   - first:
       213: 2995304919671208836
     second: The Kid_8
+  - first:
+      213: -4804589621723281715
+    second: The Kid_0
+  - first:
+      213: 8058311313471314558
+    second: The Kid_1
+  - first:
+      213: -7913465467495240038
+    second: The Kid_2
+  - first:
+      213: -9219720455331947698
+    second: The Kid_3
+  - first:
+      213: -162070084717628148
+    second: The Kid_4
+  - first:
+      213: -2538439996310198756
+    second: The Kid_5
+  - first:
+      213: 8681111646874329009
+    second: The Kid_6
+  - first:
+      213: 488071066333142818
+    second: The Kid_7
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -128,180 +152,12 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: The Kid_0
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 72
-        height: 60
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 85510a07d7a75b500800000000000000
-      internalID: 411369620153308504
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: The Kid_1
-      rect:
-        serializedVersion: 2
-        x: 72
-        y: 0
-        width: 72
-        height: 60
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 89ff1d539d5e8af90800000000000000
-      internalID: -6942046104518000744
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: The Kid_2
-      rect:
-        serializedVersion: 2
-        x: 144
-        y: 0
-        width: 72
-        height: 60
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 06c43e26f93b93d50800000000000000
-      internalID: 6717597816340040800
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: The Kid_3
-      rect:
-        serializedVersion: 2
-        x: 216
-        y: 0
-        width: 72
-        height: 60
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 786edab90941f7ae0800000000000000
-      internalID: -1549497135472449913
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: The Kid_4
-      rect:
-        serializedVersion: 2
-        x: 288
-        y: 0
-        width: 72
-        height: 60
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cef37ca80afebd100800000000000000
-      internalID: 133964086739681260
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: The Kid_5
-      rect:
-        serializedVersion: 2
-        x: 360
-        y: 0
-        width: 72
-        height: 60
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 50c588931d7f821a0800000000000000
-      internalID: -6833939956549264379
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: The Kid_6
-      rect:
-        serializedVersion: 2
-        x: 432
-        y: 0
-        width: 72
-        height: 60
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 24494abd3cb6580f0800000000000000
-      internalID: -1115366843756538814
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: The Kid_7
-      rect:
-        serializedVersion: 2
-        x: 504
-        y: 0
-        width: 72
-        height: 60
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ce654cddf66263770800000000000000
-      internalID: 8590095601159657196
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: The Kid_8
       rect:
         serializedVersion: 2
-        x: 576
+        x: 568
         y: 0
-        width: 72
+        width: 71
         height: 60
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -312,6 +168,174 @@ TextureImporter:
       bones: []
       spriteID: 48b7bf264f5719920800000000000000
       internalID: 2995304919671208836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Kid_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 71
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc6c7a1e13ba25db0800000000000000
+      internalID: -4804589621723281715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Kid_1
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 0
+        width: 71
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7a18f0e17fd4df60800000000000000
+      internalID: 8058311313471314558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Kid_2
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 0
+        width: 71
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9e20aba519bd2290800000000000000
+      internalID: -7913465467495240038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Kid_3
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 0
+        width: 71
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4b59831819fc0080800000000000000
+      internalID: -9219720455331947698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Kid_4
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 0
+        width: 71
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0530bbdd1630cdf0800000000000000
+      internalID: -162070084717628148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Kid_5
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 0
+        width: 71
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c166948c546a5ccd0800000000000000
+      internalID: -2538439996310198756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Kid_6
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 0
+        width: 71
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bf537f5c01897870800000000000000
+      internalID: 8681111646874329009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Kid_7
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 0
+        width: 71
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22fdee58c0af5c600800000000000000
+      internalID: 488071066333142818
       vertices: []
       indices: 
       edges: []
